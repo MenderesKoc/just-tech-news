@@ -1,3 +1,4 @@
 const User = require('./User');
+const Post = resuire('./Post');
 
-module.exports = { User };
+module.exports = { User, Post };
