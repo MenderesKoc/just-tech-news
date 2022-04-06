@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "seeds": "node server.js"
+    "seeds": "node server.js",
+    "heroku-postbuild": "node seeds/index.js"
   },
   "author": "",
   "license": "ISC",
